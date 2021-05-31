@@ -101,8 +101,6 @@ $(document).ready(function() {
 
   // Manejo del carrito
 
- // Manejo del carrito
-
  function agregarJuego(pID, pTitulo, pFoto, pPrecio) {
 
   $("div#ventaRealizada").empty();
@@ -206,9 +204,7 @@ $('div#total').empty();
 $('div#total').append(total.toFixed(2));
 }
 
-//Animaciones 
-
-// Mostrar la tabla de Usuario Logueado
+// Animación Mostrar la tabla de Usuario Logueado
 var flip = 3;
 $("#pat").click(function () {
   $(".my-5").toggle(flip++ % 2 === 1);
