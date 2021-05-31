@@ -36,7 +36,7 @@ h3 {
   margin-right: 1em;
 }
 
-/* Boton Patreon */
+/* Boton Usuario Logueado */
 .w-20 {
   border-radius: 1000px;
   border: none;
@@ -59,7 +59,7 @@ h3 {
   font-size: 1.5em;
 }
 
-/* Tabla de Patreons */
+/* Tabla de Usuario Logueado */
 .my-5 {
   display: none;
 }
@@ -292,7 +292,7 @@ color: rgb(182, 27, 27);;
 font-size: 1.5em;
 }
 
-/* Color de los textos en tabla de patreon */
+/* Color de los textos en tabla de Usuario Logueado */
 td{
   color: rgb(200, 57, 0);;
   font-size: 1em;

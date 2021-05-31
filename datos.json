@@ -1,26 +1,11 @@
 [
     {
         "id": 1,
+        "dni": 32126459,
         "nombre": "Santiago",
+        "apellido": "Medina",
+        "usuario": "DoomSlayer23",
         "email": "necro_nemesis23@hotmail.com",
-        "estado": true
-    },
-    {
-        "id": 2,
-        "nombre": "Camila",
-        "email": "Camu_Casta@gmail.com",
-        "estado": true
-    },
-    {
-        "id": 3,
-        "nombre": "Ignacio",
-        "email": "chino_mdp@outlook.com",
-        "estado": false
-    },
-    {
-        "id": 4,
-        "nombre": "Casandra",
-        "email": "Caco_Castiel@yahoo.com",
         "estado": true
     }
 ]

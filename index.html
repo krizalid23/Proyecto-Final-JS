@@ -35,7 +35,7 @@
                             <a class="nav-link active" aria-current="page" href="h1"></a>
                         </li>
                         <li class="nav-item">
-                            <button id="pat" class="btn btn-danger w-20"  onclick="traer()">Patreons</button>
+                            <button id="pat" class="btn btn-danger w-20"  onclick="traer()">Usuario Logueado</button>
                         </li>
                         <li class="nav-item">
                             <button class="switch" id="switch">
@@ -53,14 +53,17 @@
         </nav>
     </header>
 
-    <!--Patreon -->
+    <!--Usuario Logueado -->
     <div class="container my-5 text-center">
         <div class="mt-5">
             <table class="table">
                 <thead>
                     <tr>
-                        <th scope="col">#</th>
+                        <th scope="col">ID</th>
+                        <th scope="col">DNI</th>
                         <th scope="col">Nombre</th>
+                        <th scope="col">Apellido</th>
+                        <th scope="col">Nombre Usuario</th>
                         <th scope="col">Email</th>
                         <th scope="col">Estado</th>
                     </tr>
@@ -112,7 +115,7 @@
                         </div>
                
                         <button class="btn btn-secondary ml-auto comprarButton" type="button" data-toggle="modal"
-                            data-target="#comprarModal" onClick='comprarJuegos()'>Comprar</button>
+                            data-target="#comprarModal" onClick='comprarJuegos()'>Reservar</button>
                     </div>
                 </div>
             </div>

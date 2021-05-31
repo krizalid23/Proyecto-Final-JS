@@ -169,7 +169,8 @@ var total = $('div#total').text().replace('$','');
 
 if(total != 0){
   $("div#ventaRealizada").append(`<div class="modal-body">
-  <p class="venta">Gracias por su compra. Pronto recibirá su pedido</p>
+  <p class="venta">La reservas duran 48hs. Te enviamos la factura por mail, recordá que la necesitas para abonar tus juegos en el local.</p> 
+  <p class="venta"> Muchas gracias por elegirnos!</p>
 </div>`);   
 } else {
   $("div#ventaRealizada").empty();
@@ -207,7 +208,7 @@ $('div#total').append(total.toFixed(2));
 
 //Animaciones 
 
-// Mostrar la tabla de Patreons
+// Mostrar la tabla de Usuario Logueado
 var flip = 3;
 $("#pat").click(function () {
   $(".my-5").toggle(flip++ % 2 === 1);
@@ -231,7 +232,10 @@ function tabla(datos) {
         
         <tr>
             <th scope="row">${ valor.id }</th>
+            <td>${ valor.dni }</td>
             <td>${ valor.nombre }</td>
+            <td>${ valor.apellido }</td>
+            <td>${ valor.usuario }</td>
             <td>${ valor.email }</td>
             <td>${ valor.estado ? "Activo" : "Inactivo" }</td>
         </tr>
